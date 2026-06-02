@@ -1,30 +1,108 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Alaadin</title>
-<style>
-body{
-font-family:Arial;
-text-align:center;
-background:#f5f5f5;
-padding:50px;
-}
-h1{
-color:#ff6600;
-}
-.btn{
-background:#25D366;
-color:white;
-padding:15px 30px;
-text-decoration:none;
-border-radius:8px;
-}
-</style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Alaadin - Premium Store</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
 
-<h1>Alaadin</h1>
-<p>Welcome to Alaadin Online Store</p>
-<a class="btn" href="https://www.facebook.com/alaadinshop" target="_blank">
-    Visit Alaadin Shop
-</a>
+<nav class="navbar">
+    <div class="logo">ALAADIN</div>
+
+    <div class="search-box">
+        <input type="text" placeholder="Search products...">
+        <button><i class="fas fa-search"></i></button>
+    </div>
+
+    <div class="nav-icons">
+        <i class="fas fa-heart"></i>
+        <i class="fas fa-shopping-cart"></i>
+    </div>
+</nav>
+
+<section class="hero">
+    <div class="hero-content">
+        <h1>Premium Shopping Experience</h1>
+        <p>Discover luxury products at unbeatable prices.</p>
+        <a href="#products" class="btn">Shop Now</a>
+    </div>
+</section>
+
+<section class="categories">
+    <h2>Shop Categories</h2>
+
+    <div class="category-grid">
+        <div class="category">Electronics</div>
+        <div class="category">Fashion</div>
+        <div class="category">Beauty</div>
+        <div class="category">Home</div>
+        <div class="category">Sports</div>
+        <div class="category">Accessories</div>
+    </div>
+</section>
+
+<section id="products" class="products">
+    <h2>Featured Products</h2>
+
+    <div class="product-grid">
+
+        <div class="product-card">
+            <img src="https://picsum.photos/400/300?1">
+            <h3>Luxury Watch</h3>
+            <p>৳4999</p>
+            <button>Add To Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="https://picsum.photos/400/300?2">
+            <h3>Premium Headphone</h3>
+            <p>৳6999</p>
+            <button>Add To Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="https://picsum.photos/400/300?3">
+            <h3>Fashion Shoes</h3>
+            <p>৳2999</p>
+            <button>Add To Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="https://picsum.photos/400/300?4">
+            <h3>Smartphone</h3>
+            <p>৳24999</p>
+            <button>Add To Cart</button>
+        </div>
+
+    </div>
+</section>
+
+<section class="reviews">
+<h2>Customer Reviews</h2>
+
+<div class="review-grid">
+<div class="review">⭐⭐⭐⭐⭐ Amazing Quality!</div>
+<div class="review">⭐⭐⭐⭐⭐ Fast Delivery!</div>
+<div class="review">⭐⭐⭐⭐⭐ Trusted Store!</div>
+</div>
+</section>
+
+<section class="newsletter">
+<h2>Subscribe</h2>
+<p>Get latest offers and updates.</p>
+
+<input type="email" placeholder="Enter Email">
+<button>Subscribe</button>
+</section>
+
+<footer>
+<p>© 2026 Alaadin. All Rights Reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
